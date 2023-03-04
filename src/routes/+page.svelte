@@ -66,13 +66,28 @@
 	/**
 	 * TIPS LAGI
 	 * - Penamaan variabel haruslah deskriptif, agar mudah diingat dan langsung diketahui fungsinya
-	 * -
+	 * - Usahakan menggunakan const terus dan hanya menggunakan let untuk nilai yang berubah
 	 */
 	// const job1 = 'Barista' (kurang deskriptif)
 	// const job2 = 'Programmer' (kurang deskriptif)
 
 	const my_first_job = 'Programmer'; // Jelas dan deskriptif
 	const my_current_job = 'Barista'; // Jelas dan deskriptif
+
+	/**
+	 * CHALLENGES
+	 */
+
+	/**
+	 * 1. Deklarasikan variabel bernama 'country', 'continent', & 'population', lalu berikan nilai yang
+	 * sesuai dengan data negara anda
+	 */
+
+	const country = 'Indonesia';
+	const continent = 'Asia';
+	const population = 273.8;
+	
+	console.log({ country, continent, population });
 </script>
 
 <!-- Tampilkan variabel di HTML -->
@@ -81,6 +96,9 @@
 	<div class="text-left">
 		<p>Nama: {first_name + ' ' + last_name}</p>
 		<p>Umur: {age_user}</p>
+		<p>Negara: {country}</p>
+		<p>Benua: {continent}</p>
+		<p>Jumlah Penduduk: {population} jt</p>
 		<p>PI: {PI}</p>
 		<p>Pekerjaan Awal: {my_first_job}</p>
 		<p>Pekerjaan Sekarang: {my_current_job}</p>
