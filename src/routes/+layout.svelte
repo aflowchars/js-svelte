@@ -7,7 +7,7 @@
 	<title>Home &mdash; Aflowchars</title>
 </svelte:head>
 
-<main class="min-h-screen text-lg font-medium text-white">
+<main class="relative text-lg font-medium text-white">
 	<section
 		class="flex min-h-screen flex-col items-center justify-center bg-gradient-to-br from-orange-500 to-yellow-500"
 	>
@@ -23,6 +23,7 @@
 				Selamat datang di Svelte X Javascript
 			</h1>
 		</div>
+
 		<slot />
 	</section>
 </main>
